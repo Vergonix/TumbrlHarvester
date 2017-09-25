@@ -9,29 +9,42 @@
 using System;
 using System.IO;
 using System.Net;
+using System.Collections.Generic;
 
 namespace TumbrlHarvester
 {
 	class Program
 	{	
-		public static string urls;
+		//public static string urls;
+		public static List <string> pages = new List <string>();
+		
 		
 		public static void Main(string[] args)
 		{
 			// TODO: Implement Functionality Here
-			HttpStatusCode resp = new HttpStatusCode();
-			string [] domains = {"http://semahead.pl/asd", "http://semahead.pl/", "http://semahead.pl/fgb",  "http://semahead.pl/ers", "http://semahead.pl/produkty", "https://kraus.tumblr.com/"};
 			
+			HttpStatusCode resp = new HttpStatusCode();
+			int counter = 0;
 			
 				Harvester har = new Harvester();
-				for(int i=0; i<6; i++) {
+				Reaper rep = new Reaper();
+				
+				rep.prepareUsersPageList();
+				
+				foreach (string page in pages) {
 					try {
-						resp = har.GetHeaders(domains[i]);
-						File.AppendAllText(@"C:\Users\pawel.pietralik\Desktop\request.txt", urls + Environment.NewLine);
+						resp = har.GetHeaders(page);
+						Console.WriteLine(counter +  " >> " + resp);
+						counter++;
+						File.AppendAllText(@"C:\Users\pawel.pietralik\Desktop\request.txt", counter + " >> " + page + Environment.NewLine);
 					} catch(Exception) {
-						File.AppendAllText(@"C:\Users\pawel.pietralik\Desktop\glupota.txt", urls + Environment.NewLine);
+						Console.WriteLine(counter +  " >> " + resp);
+						counter++;
+						File.AppendAllText(@"C:\Users\pawel.pietralik\Desktop\glupota.txt", counter + " >> " + page + Environment.NewLine);
 					}
 				}
+				
+				
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);

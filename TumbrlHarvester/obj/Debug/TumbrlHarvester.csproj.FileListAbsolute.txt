@@ -4,3 +4,17 @@
 \\mcfilkrkorg43.bauer-pl.bauermedia.group\pawel.pietralik$\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\TumbrlHarvester.pdb
 \\mcfilkrkorg43.bauer-pl.bauermedia.group\pawel.pietralik$\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\obj\Debug\TumbrlHarvester.exe
 \\mcfilkrkorg43.bauer-pl.bauermedia.group\pawel.pietralik$\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\obj\Debug\TumbrlHarvester.pdb
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\TumbrlHarvester.exe.config
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\TumbrlHarvester.exe
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\TumbrlHarvester.pdb
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\WebDriver.dll
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\WebDriver.Support.dll
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\WebDriver.xml
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\WebDriver.Support.xml
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\obj\Debug\TumbrlHarvester.csprojResolveAssemblyReference.cache
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\obj\Debug\TumbrlHarvester.exe
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\obj\Debug\TumbrlHarvester.pdb
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\ThoughtWorks.Selenium.Core.dll
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+Z:\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\ThoughtWorks.Selenium.Core.xml

@@ -23,8 +23,9 @@ namespace TumbrlHarvester
 		public HttpStatusCode GetHeaders(string url)
 	    {
 	        HttpStatusCode result = default(HttpStatusCode);
+	        
 			
-	        Program.urls = url;
+	       // Program.urls = url;
 	        var request = HttpWebRequest.Create(url);
 	        request.Method = "HEAD";
 	        using (var response = request.GetResponse() as HttpWebResponse)
