@@ -24,12 +24,14 @@ namespace TumbrlHarvester
 			// TODO: Implement Functionality Here
 			
 			HttpStatusCode resp = new HttpStatusCode();
-			int counter = 0;
-			
+			int counter = 1;
+
 				Harvester har = new Harvester();
 				Reaper rep = new Reaper();
 				
 				rep.prepareUsersPageList();
+				File.WriteAllText(@"C:\Users\pawel.pietralik\Desktop\request.txt", string.Empty);
+				File.WriteAllText(@"C:\Users\pawel.pietralik\Desktop\glupota.txt", string.Empty);
 				
 				foreach (string page in pages) {
 					try {
@@ -38,7 +40,7 @@ namespace TumbrlHarvester
 						counter++;
 						File.AppendAllText(@"C:\Users\pawel.pietralik\Desktop\request.txt", counter + " >> " + page + Environment.NewLine);
 					} catch(Exception) {
-						Console.WriteLine(counter +  " >> " + resp);
+						Console.WriteLine(counter +  " >> 404 Page not Found");
 						counter++;
 						File.AppendAllText(@"C:\Users\pawel.pietralik\Desktop\glupota.txt", counter + " >> " + page + Environment.NewLine);
 					}

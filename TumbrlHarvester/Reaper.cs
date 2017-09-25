@@ -27,7 +27,7 @@ namespace TumbrlHarvester
 		
 		
 		public void prepareUsersPageList() {
-			driver.Navigate().GoToUrl("http://relatablepoetryandquotes.tumblr.com/post/165666772422/via-extramadness");
+			driver.Navigate().GoToUrl("https://incorrectftquotes.tumblr.com/post/163961201927/natsu-i-want-to-name-my-daughter-mayonnaise-and?is_related_post=1#notes");
 			Thread.Sleep(3000);
 			
 			while(doExist) {
@@ -46,7 +46,9 @@ namespace TumbrlHarvester
 	
 			for(int i=0; i<driver.FindElements(By.ClassName("action")).Count; i++) {
 				elem = driver.FindElements(By.ClassName("action"))[i];
-				Program.pages.Add(elem.FindElements(By.TagName("a"))[0].GetAttribute("href"));
+				if(elem.FindElements(By.TagName("a"))[0].GetAttribute("href") != "#") {
+					Program.pages.Add(elem.FindElements(By.TagName("a"))[0].GetAttribute("href"));
+				}
 			}
 		}
 		
