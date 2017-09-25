@@ -1,0 +1,6 @@
+\\mcfilkrkorg43.bauer-pl.bauermedia.group\pawel.pietralik$\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\obj\Debug\TumbrlHarvester.csprojResolveAssemblyReference.cache
+\\mcfilkrkorg43.bauer-pl.bauermedia.group\pawel.pietralik$\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\TumbrlHarvester.exe.config
+\\mcfilkrkorg43.bauer-pl.bauermedia.group\pawel.pietralik$\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\TumbrlHarvester.exe
+\\mcfilkrkorg43.bauer-pl.bauermedia.group\pawel.pietralik$\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\bin\Debug\TumbrlHarvester.pdb
+\\mcfilkrkorg43.bauer-pl.bauermedia.group\pawel.pietralik$\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\obj\Debug\TumbrlHarvester.exe
+\\mcfilkrkorg43.bauer-pl.bauermedia.group\pawel.pietralik$\SharpDevelop Projects\TumbrlHarvester\TumbrlHarvester\obj\Debug\TumbrlHarvester.pdb

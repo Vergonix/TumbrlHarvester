@@ -48,8 +48,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Harvester.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reaper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
